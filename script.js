@@ -1,17 +1,14 @@
-let winky = document.getElementById('animation-after');
-let normal = document.getElementById('animation-pre');
+let winkingMan = document.getElementById('animation-pre');
 
-let wink = () => {
-    return winky.style.display = 'block';
+const wink = () => {
+    return winkingMan.src = 'resources/images/winky.svg';
 }
 
-let unwink = () => {
-    return winky.style.display = 'none';
+const unwink = () => {
+    return winkingMan.src = 'resources/images/dancing-man.svg';
 }
 
-normal.onmousedown = wink;
-
-winky.onmouseup = unwink;
-
+winkingMan.onmousedown = wink;
+winkingMan.onmouseup = unwink;
 
 
