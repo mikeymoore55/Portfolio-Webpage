@@ -9,9 +9,9 @@ let unwink = () => {
     return winky.style.display = 'none';
 }
 
-normal.onmouseover = wink;
+normal.onmousedown = wink;
 
-winky.onmouseout = unwink;
+winky.onmouseup = unwink;
 
 
 
