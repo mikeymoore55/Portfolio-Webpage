@@ -10,38 +10,32 @@ html {
     padding: 0;
 }
 
-nav {
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-nav ul {
-
-    display: flex;
-    justify-content: space-around;
-    gap: 200px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
+h1 {
+    margin-top: 70px;
+    font-family: "dosis", sans-serif;
+    font-size: 3rem;
     color: #fffacd;
-    font-size: 1.25rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition-property: color;
-    transition-duration: 750ms;
+    text-align: center;
+
 }
 
-nav ul li a:hover {
+span {
     color: gold;
-    text-decoration: underline;
 }
 
-nav ul li a:active {
-    opacity: 0.5;
+.blue-box {
+    width: 100%;
+    height: 400px;
+    background-color: #267099;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.white-box {
+    width: 100%;
+    height: 400px;
+    background-color: #fffacd;
+    border-radius: 3px;
 }
