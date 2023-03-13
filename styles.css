@@ -61,3 +61,15 @@ span {
     align-items: center;
     gap: 20px;
 }
+
+#animation-pre {
+    width: 25%
+}
+
+#animation-after {
+    width: 12.5%;
+    position: absolute;
+    display: none;
+    transition-property: all;
+    transition-duration: 1s;
+}
