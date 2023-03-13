@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 521.89 404.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4678aa;
+      }
+
+      .cls-2 {
+        fill: #e3e4e5;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <polygon class="cls-2" points="328.69 385 194.69 385 204.69 307 316.69 307 328.69 385"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <path class="cls-2" d="m171.95,381h178c5.52,0,10,4.48,10,10v13h-198v-13c0-5.52,4.48-10,10-10Z"/>
+  </g>
+  <g id="Computer_Monitor" data-name="Computer Monitor">
+    <rect class="cls-2" x=".5" y=".5" width="520.89" height="329" rx="10" ry="10"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <g>
+      <rect class="cls-1" x="37.65" y="31.98" width="447.21" height="249.73" rx="4.5" ry="4.5"/>
+      <path d="m480.36,32.48c2.21,0,4,1.79,4,4v240.73c0,2.21-1.79,4-4,4H42.15c-2.21,0-4-1.79-4-4V36.48c0-2.21,1.79-4,4-4h438.21m0-1H42.15c-2.76,0-5,2.24-5,5v240.73c0,2.76,2.24,5,5,5h438.21c2.76,0,5-2.24,5-5V36.48c0-2.76-2.24-5-5-5h0Z"/>
+    </g>
+  </g>
+</svg>
