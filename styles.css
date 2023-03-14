@@ -38,6 +38,7 @@ span {
     background-color: #267099;
     color: #fffacd;
     display: flex;
+    
     justify-content: center;
     align-items: center;
 }
@@ -63,18 +64,29 @@ span {
 }
 
 #animation-pre {
-    width: 140px;
+    width: 200px;
 }
 
 #click-prompt {
     color: #fffacd8f;
 }
 
+#fish {
+    width: 450px;
+}
+
+#fish-count {
+    transform: translateX(-18px);
+}
+
 @media only screen and (max-width: 800px) {
     .blue-box, .white-box {
         flex-direction: column;
-        
         height: 100vh;
         padding: 40px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
     }
 }
